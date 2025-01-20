@@ -113,6 +113,11 @@ public class List<T extends Comparable<T>> {
         }
     }
 
+    // Remove all elements from list
+    public void clear() {
+        head = null;
+    }
+
     // Print last element
     public void printLast() {
         if (head != null) {
