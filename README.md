@@ -1,18 +1,18 @@
-## Getting Started
+1000 iterations of 100'000 elements gave an avrage of: -
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Instructions:
+Download the repo.
+Open with visual studio code.
+Download the Java extention.
 
-## Folder Structure
+To run the code go to App.java.
+Press: ctrl + shift + B
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Or press:
+Win + R
+type "cmd"
+use the cd command to navigate to the directory containing your Java program.
+ex: cd GYAR-Java-MergeSort\src
+cd c:\Users\User\Documents\Java\GYAR-Java-MergeSort\src
+javac App
+java App
