@@ -18,11 +18,9 @@ public class List<T extends Comparable<T>> {
         if (head == null) {
             head = new Node<>(input);
         } else {
-            Node<T> current = head;
-            while (current.next != null) {
-                current = current.next;
-            }
-            current.next = new Node<>(input);
+            Node<T> node = new Node<>(input);
+            node.next = head;
+            head = node;
         }
     }
 
